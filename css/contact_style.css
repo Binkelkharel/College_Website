@@ -60,7 +60,7 @@ nav{
    align-items: center;
 }
 nav img{
-   width: 150px;
+   width: 50px;
 }
 .nav-links{
    flex: 1;
@@ -321,3 +321,4 @@ border-color: var(--btn-hvr);
        margin-top: 15px;
    }
    
+}

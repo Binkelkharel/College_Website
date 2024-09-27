@@ -6,10 +6,7 @@
   font-family: bold;
   src: url(../Poppins/Poppins-Bold.ttf);
 }
-  *{
-    /* overflow: hidden; */
-    /* border: 1px solid yellow; */
-  }
+  
   body{
     background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(../image/background.jpg);
     background-position: center;
@@ -46,7 +43,7 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 150px;
+    width: 50px;
 }
 .nav-links{
     flex: 1;
@@ -366,4 +363,4 @@ background: var(--btn-hvr);
   .input_item{
     overflow: hidden;
   }
-  
+}

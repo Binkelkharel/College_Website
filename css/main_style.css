@@ -47,7 +47,7 @@ body{
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(../image/background.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.5)),url(../image/background.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -59,7 +59,7 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 150px;
+    width: 50px;
 }
 .nav-links{
     flex: 1;
@@ -76,7 +76,7 @@ nav img{
 .nav-links a{
     color: #fff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     
 }
 .nav-links ul li::after{
@@ -197,6 +197,7 @@ h3{
 }
 .campus-col img{
     width: 100%;
+    height: 100%;
     display: block;
 }
 .layer{
@@ -272,12 +273,12 @@ h3{
 .ctn{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/banner_ggu.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/Gyansarover.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
     text-align: center;
-    padding: 100px 0;
+    padding: 150px 0;
     transition: 0.5s;
 }
 .ctn h1{
@@ -288,16 +289,14 @@ h3{
 .ctn:hover{
     margin: 100px auto;
     width: 80%;
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../image/banner_ggu.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../image/Gyansarover.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
-    padding: 100px 0;
+    padding: 150px 0;
     box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.664);
 }
-.ctn{
-    
-}
+
 
 /* Footer */
 
